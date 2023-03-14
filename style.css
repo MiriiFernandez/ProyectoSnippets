@@ -7,6 +7,13 @@ body {
   width: 100%;
 }
 
+h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
 /* HEADER */
 span {
   display: none;
@@ -83,7 +90,7 @@ li {
   width: 55px;
 }
 
-/* CAROUSEL
+/* CAROUSEL */
 .carousel {
   display: flex;
   justify-content: center;
@@ -109,4 +116,13 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+}
+
+.carousel-arrow {
+  width: 50px;
+  height: 50px;
+}
+
+.carousel-arrow-right {
+  margin-left: 10px;
+}
