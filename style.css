@@ -153,3 +153,24 @@ li {
   margin-top: 20px;
   flex-direction: row-reverse;
 }
+
+/* EMPLEADOS */
+.titulo_seccion_circulos {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.seccion_circulos {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.circulo_seccion {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: #22a2f2;
+}
