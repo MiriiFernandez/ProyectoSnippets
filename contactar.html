@@ -5,8 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactar</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- HEADER -->
+    <div class="headerSimple">
+        <header class="headerSimpleExtendido">
+            <picture>
+                <source srcset="
+                ./img/profile.jpg 1x,
+                ./img/profile.jpg 2x,
+                ./img/profile.jpg 3x"
+                media="(min-width:320px) and (orientation:portrait)">
     
+                <!-- Desktop -->
+                <source srcset="
+                ./img/profile.jpg 1x,
+                ./img/profile.jpg 2x"
+                media="(min-width:1000px)">
+                
+                <img class="headerSimple__logo" src="" alt="logotipo">
+            </picture>
+          <section class="menu_navbar">
+            <ul>
+            
+            <li><a href="" class="icono_casa"><img src="img/casa.png" alt="">
+            
+            </a></li>
+              
+            <li><a href="servicios.html" class="icono_lista"><img src="img/lista.png" alt="">
+            </a></li>
+              
+            <li><a href="nosotros.html" class="icono_maleta"><img src="img/maletin.png" alt="">
+            </a></li>
+            
+            <li><a href="" class="icono_mssg"><img src="img/sobre.png" alt="">
+            </a></li>
+    
+            </ul>
+          </section>
+        </div>
+
+        <!-- FORMULARIO JUNTO A PARRAFO -->
+        <section class="form_parrafo">
+            <form action="" class="formulario">
+                <label for="">Nombre</label>
+                <input type="text">
+                <label for="">Apellidos</label>
+                <input type="text">
+                <label for="">Email</label>
+                <input type="email">
+                <label for="">Comentario</label>
+                <input type="text" class="comentario">
+                
+                <input class="btn_enviar" type="button" value="ENVIAR">
+            </form>
+
+        <section class="parrafoCP">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint modi cupiditate explicabo blanditiis nemo dignissimos atque id ad! Magni ex vel aliquam dicta qui amet quidem alias veniam? Similique, unde.
+                Quidem tempora iste iure, exercitationem voluptates incidunt accusantium voluptatem facere, officiis, sed nisi earum eos quisquam eum culpa fugit. Quae saepe consectetur at iste nisi sunt reprehenderit amet quam voluptas.
+                Quisquam sunt porro commodi architecto neque animi itaque laboriosam et ullam eum est magnam perferendis in, incidunt aspernatur alias nisi tenetur deleniti laudantium! Quo, ipsa qui rerum sapiente voluptatum fugiat. Quisquam sunt porro commodi architecto neque animi itaque laboriosam et ullam eum est magnam perferendis in, incidunt aspernatur alias nisi tenetur deleniti laudantium!
+                Quisquam sunt porro commodi architecto neque animi itaque laboriosam et ullam eum est magnam perferendis in, incidunt aspernatur alias nisi tenetur deleniti laudantium!</p>
+        </section>
+        </section>
 </body>
 </html>

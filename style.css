@@ -21,7 +21,6 @@ span {
 
 .headerSimple {
   background: #fff;
-  
 }
 
 .headerSimpleExtendido {
@@ -229,19 +228,54 @@ a {
   color: #a4a4a4f8;
 }
 
-
-/* CONTACTAR PAGINA */
-.parrafo{
-    display: flex;
-    justify-content: center;
-    text-align: justify;
-    padding-top: 12px;
-    padding: 15px;
+/* NOSOTROS PAGINA */
+.parrafo {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  padding-top: 12px;
+  padding: 15px;
 }
 
-.comentarios{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin-top: 200px;
-    padding: 12px;
+.comentarios {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 200px;
+  padding: 12px;
+}
+
+/* CONTACTAR PAGINA */
+.form_parrafo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  margin-left: 300px;
+}
+
+.parrafoCP {
+  margin: 50px;
+}
+
+input {
+  height: 25px;
+  background-color: #d7d7d7;
+  border: none;
+}
+
+.comentario {
+  height: 150px;
+}
+
+.btn_enviar {
+  margin-top: 10px;
+  width: 20%;
+  background: #54f95f;
+  border: none;
 }
