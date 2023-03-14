@@ -5,8 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto con Snippets</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- HEADER -->
+    <div class="headerSimple">
+        <header class="headerSimpleExtendido">
+            <picture>
+                <source srcset="
+                ./img/profile.jpg 1x,
+                ./img/profile.jpg 2x,
+                ./img/profile.jpg 3x"
+                media="(min-width:320px) and (orientation:portrait)">
     
+                <!-- Desktop -->
+                <source srcset="
+                ./img/profile.jpg 1x,
+                ./img/profile.jpg 2x"
+                media="(min-width:1000px)">
+                
+                <img class="headerSimple__logo" src="" alt="logotipo">
+            </picture>
+          <section class="menu_navbar">
+            <ul>
+            
+            <li><a href="" class="icono_casa"><img src="img/casa.png" alt="">
+            
+            </a></li>
+              
+            <li><a href="" class="icono_lista"><img src="img/lista.png" alt="">
+            </a></li>
+              
+            <li><a href="" class="icono_maleta"><img src="img/maletin.png" alt="">
+            </a></li>
+            
+            <li><a href="" class="icono_mssg"><img src="img/sobre.png" alt="">
+            </a></li>
+    
+            </ul>
+          </section>
+        </div>
+        <!-- CAROUSEL -->
+        
 </body>
 </html>

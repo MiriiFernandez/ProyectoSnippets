@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+/* HEADER */
+span {
+  display: none;
+}
+
+.headerSimple {
+  background: #fff;
+}
+
+.headerSimpleExtendido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #d7d7d7;
+  padding-top: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+  .headerSimpleExtendido {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .menu_navbar ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+  }
+
+  .menu_navbar img {
+    display: none;
+  }
+
+  span {
+    display: flex;
+  }
+
+  .icono_casa::after {
+    content: "inicio";
+  }
+
+  .icono_lista::after {
+    content: "Servicios";
+  }
+
+  .icono_maleta::after {
+    content: "Nosotros";
+  }
+
+  .icono_mssg::after {
+    content: "Contactar";
+  }
+
+  .headerSimple__logo {
+    margin-right: 500px;
+  }
+}
+
+.headerSimple__logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.menu_navbar ul,
+li {
+  list-style: none;
+  padding: 20px;
+}
+
+.menu_navbar img {
+  width: 55px;
+}
+
+/* CAROUSEL
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1366px;
+}
+
+.contenido {
+  display: flex;
+  width: 800px;
+  overflow: hidden;
+  padding: 12px;
+}
+
+.carousel-item {
+  flex: 1 0 33%;
+  background: #0866c4;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
