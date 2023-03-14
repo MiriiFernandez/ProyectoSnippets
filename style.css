@@ -243,5 +243,5 @@ a {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-top: 200px;
-    padding: 10px;
+    padding: 12px;
 }
