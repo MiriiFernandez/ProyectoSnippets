@@ -21,6 +21,7 @@ span {
 
 .headerSimple {
   background: #fff;
+  
 }
 
 .headerSimpleExtendido {
@@ -30,7 +31,6 @@ span {
   text-align: center;
   flex-direction: column;
   background-color: #d7d7d7;
-  padding-top: 10px;
 }
 
 @media screen and (min-width: 1000px) {
@@ -42,7 +42,6 @@ span {
   .menu_navbar ul {
     display: flex;
     flex-direction: row;
-    font-size: 20px;
   }
 
   .menu_navbar img {
@@ -55,18 +54,22 @@ span {
 
   .icono_casa::after {
     content: "inicio";
+    font-size: 20px;
   }
 
   .icono_lista::after {
     content: "Servicios";
+    font-size: 20px;
   }
 
   .icono_maleta::after {
     content: "Nosotros";
+    font-size: 20px;
   }
 
   .icono_mssg::after {
     content: "Contactar";
+    font-size: 20px;
   }
 
   .headerSimple__logo {
@@ -75,8 +78,8 @@ span {
 }
 
 .headerSimple__logo {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
 }
 
@@ -87,7 +90,7 @@ li {
 }
 
 .menu_navbar img {
-  width: 55px;
+  width: 50px;
 }
 
 /* CAROUSEL */
@@ -173,4 +176,55 @@ li {
   height: 300px;
   border-radius: 50%;
   background: #22a2f2;
+}
+
+/* FOOTER */
+.footerSimple {
+  background: #fff;
+  margin-top: 200px;
+}
+
+.footerSimpleExtendido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #d7d7d7;
+  padding-top: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+  .circulo_perfil {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu_navbar ul {
+    display: flex;
+  }
+}
+
+.footerSimple__logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.menu_navbar ul,
+li {
+  list-style: none;
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 25px;
+}
+
+.footerSimple__copy {
+  margin-bottom: 50px;
+  font-size: 22px;
+  color: #a4a4a4f8;
 }
